@@ -1,6 +1,6 @@
 function Projects(){
     const Project1 = 'Car Database'
-    const Project2 = 'DevOps';
+    const Project2 = 'Map Website';
     const Project3 = 'Dissertation'
     const Project4 = 'Maritime Emergency Response'
     const Project5 = 'Mobile App Development'
@@ -11,12 +11,17 @@ function Projects(){
     <div>
         <div>
             <h2>{Project1}</h2>
-            <p></p>
+            <p>This is a simple car database wit various search bars demonstrating use of NoSQL databases (MongoDB with Mongoose) with schemas and models and
+                aggregating and creating groupings. This project includes, Embedded Javascript (EJS) and Express for utilizing RESTful APIs with Node.js as well
+                some basic fundamental CSS using Bootsrap. </p>
         </div>
 
         <div>
             <h2>{Project2}</h2>
-            <p></p>
+            <p> This was a DevOps group project and task allocation got distributed evenly and a following of CD/CI pipeline was mandatory for the project following and Agile methodology,
+                I was mainly in charge of the Mapping, GPS, permissions for tracking and legalities of matters like not using commercial libraries. The project was done in
+                React/Typescript (TSX) and I personally got involved with the leaflet library for the mapping as well as Tailwind CSS for styling as well as some models for the
+                NoSQL database (MongoDB).</p>
         </div>
 
         <div>
