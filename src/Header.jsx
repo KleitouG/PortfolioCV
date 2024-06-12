@@ -1,18 +1,19 @@
-function Header(){
-    return(
-        <header>
-            <h1>Georgios Kleitou CV</h1>
-            <nav>
-                <ul>
-                    <li><a href="#"></a>Home</li>
-                    <li><a href="#"></a>Bio</li>
-                    <li><a href="#"></a>Projects</li>
-                    <li><a href="#"></a>Contact Information</li>
-                </ul>
-            </nav>
-            <hr></hr>
-        </header>
+function Header() {
+    return (
+      <header>
+        <h1>Georgios Kleitou CV</h1>
+        <nav className="navbar">
+          <ul>
+            <li><a href="#">Top</a></li>
+            <li><a href="#Bio">Bio</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact Information</a></li>
+          </ul>
+        </nav>
+        <hr />
+      </header>
     );
-}
-
-export default Header
+  }
+  
+  export default Header;
+  
